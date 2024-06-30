@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "deploy": "gh-pages -d .",
+    "predeploy": "echo 'Preparing deployment...'"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "homepage": "https://shofjablas.github.io/Momentum"
+}
