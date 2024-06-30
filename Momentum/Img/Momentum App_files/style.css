@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'EF_jejudoldam';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OTEnjoystoriesBA';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ChosunLo';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunLo.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  text-align: center;
+}
+
+#clock {
+  font-family: 'EF_jejudoldam';
+  font-size: 80px;
+  color: #fff;
+  text-shadow: 5px 5px 3px #333;
+}
+
+#greeting {
+  font-family: 'ChosunLo';
+  font-size: 40px;
+  color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#quote {
+  font-family: 'OTEnjoystoriesBA';
+  font-size: 24px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 0 20px;
+}
+
+#todo-form input {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+
+  border-radius: 50px;
+  border: none;
+}
+
+#todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+#todo-list li {
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+#weather {
+  font-size: 20px;
+  margin: 20px 0;
+}
