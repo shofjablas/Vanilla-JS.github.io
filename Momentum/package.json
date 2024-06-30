@@ -1,10 +1,9 @@
 {
   "scripts": {
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "deploy": "gh-pages -d public"
   },
   "dependencies": {
     "gh-pages": "^6.1.1"
   },
-  "homepage": "https://shofjablas.github.io/my-app"
+  "homepage": "https://shofjablas.github.io/Vanilla-JS/"
 }
