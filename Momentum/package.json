@@ -1,9 +1,10 @@
 {
-  "scripts": {
-    "deploy": "gh-pages -d public"
-  },
+  "homepage": "https://shofjablas.github.io/Vanilla-JS/Momentum",
   "dependencies": {
     "gh-pages": "^6.1.1"
   },
-  "homepage": "https://shofjablas.github.io/Vanilla-JS/"
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
 }
